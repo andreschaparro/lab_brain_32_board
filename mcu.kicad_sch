@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "94e067b1-75f8-449e-a02e-928d32bb5196")
+	(paper "A4")
+	(title_block
+		(title "MCU")
+		(date "2025-07-22")
+		(rev "1")
+		(company "Ing. Andrés Chaparro")
+	)
+	(lib_symbols)
+)

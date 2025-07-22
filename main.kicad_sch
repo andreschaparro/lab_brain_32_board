@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "583eda35-dfa3-4bf4-ab55-702a71dc2315")
+	(paper "A4")
+	(title_block
+		(title "Main")
+		(date "2025-07-22")
+		(rev "1")
+		(company "Ing. Andrés Chaparro")
+	)
+	(lib_symbols)
+	(sheet
+		(at 127 63.5)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 0.2000)
+		)
+		(uuid "e5102860-e68f-4cc3-92fe-458743812e14")
+		(property "Sheetname" "MCU"
+			(at 127 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lab_brain_32_board"
+				(path "/da730d06-1a08-4bc4-8410-083a51b7c81c/4b81d9d2-8b30-4eb6-ba07-dfa63ffc4e60"
+					(page "3")
+				)
+			)
+		)
+	)
+)

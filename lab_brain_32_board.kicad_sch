@@ -1,5 +1,85 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "da730d06-1a08-4bc4-8410-083a51b7c81c")
+	(paper "A4")
+	(title_block
+		(title "Project Overview")
+		(date "2025-07-22")
+		(rev "1")
+		(company "Ing. Andrés Chaparro")
+	)
+	(lib_symbols)
+	(text "LabBrain32 Board"
+		(exclude_from_sim no)
+		(at 13.97 16.51 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "dfa1ca6b-5045-46f9-8ba6-c018f88aded7")
+	)
+	(polyline
+		(pts
+			(xy 12.7 25.4) (xy 279.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b28cdf-ee6b-468d-b5ba-2853b30ccc38")
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 0.2000)
+		)
+		(uuid "4b81d9d2-8b30-4eb6-ba07-dfa63ffc4e60")
+		(property "Sheetname" "Main"
+			(at 139.7 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 139.7 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lab_brain_32_board"
+				(path "/da730d06-1a08-4bc4-8410-083a51b7c81c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
